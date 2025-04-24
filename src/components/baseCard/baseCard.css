@@ -21,3 +21,12 @@
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
 }
+
+.card__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+}
