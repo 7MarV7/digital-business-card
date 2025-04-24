@@ -1,10 +1,9 @@
 import './App.css';
-import { CardsBase } from './components/CardsBase/CardsBase';
-
+import { BaseCard } from './components/baseCard/baseCard.jsx';
 function App() {
   return (
     <body>
-      <CardsBase />
+      <BaseCard />
     </body>
   );
 }
