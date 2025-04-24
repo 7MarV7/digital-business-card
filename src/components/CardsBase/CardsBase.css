@@ -4,8 +4,6 @@
   align-items: center;
   justify-content: center;
   background: rgba(255, 255, 255, 0.048);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
   width: 500px;
   margin: 0.5rem auto;
   margin-top: 100px;
