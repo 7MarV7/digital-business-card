@@ -1,0 +1,32 @@
+.social-media-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: black;
+  padding: 1rem;
+  width: 100%;
+  max-width: 600px;
+}
+
+.social-media-buttons a img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.social-media-buttons a img:hover {
+  filter: grayscale(0%);
+}
+
+.social-media-buttons a {
+  font-size: 32px;
+  color: #d3d3d3;
+  transition: color 0.3s ease, border 0.3s ease, padding 0.3s ease,
+    border-radius 0.3s ease;
+}
+
+.social-media-buttons a :hover {
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 50%;
+  color: white;
+}
