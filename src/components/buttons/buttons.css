@@ -1,12 +1,15 @@
 .button-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 1rem;
   margin-top: 15px;
 }
 
-.email {
+.email,
+.linkedin {
+  display: flex;
+  align-items: center;
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   padding: 10px 20px;
@@ -20,10 +23,16 @@
 .linkedin {
   background-color: #0072b1;
   color: rgb(255, 255, 255);
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none;
-  height: fit-content;
+}
+
+.email:hover {
+  background-color: #0072b1;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.linkedin:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transition: all 0.3s ease-in-out;
 }
