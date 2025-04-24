@@ -1,13 +1,11 @@
 import './CardsBase.css';
+import { Header } from '../Header/header.jsx';
 
 export const CardsBase = () => {
   return (
     <div className="cards-basebackground">
       <div className="card">
-        <div className="card__header">
-          <h1 className="card__title">Digital Business Card</h1>
-          <p className="card__subtitle">Your digital identity</p>
-        </div>
+        <Header />
         <div className="card__content">
           <p className="card__description">
             Create and share your digital business card with ease.
