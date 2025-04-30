@@ -1,10 +1,11 @@
 import './App.css';
 import { BaseCard } from './components/baseCard/baseCard.jsx';
+
 function App() {
   return (
-    <body>
+    <div>
       <BaseCard />
-    </body>
+    </div>
   );
 }
 
