@@ -1,4 +1,4 @@
-import './socialMediaButtons.css';
+import './footer.css';
 import {
   FaLinkedin,
   FaTwitter,
@@ -7,7 +7,7 @@ import {
   FaGithub,
 } from 'react-icons/fa';
 
-export const SocialMediaButtons = () => {
+export const Footer = () => {
   return (
     <div className="social-media-buttons">
       <a
