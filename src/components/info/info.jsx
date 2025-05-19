@@ -15,7 +15,7 @@ export const Info = () => {
           <small>laura.smith.website</small>
         </div>
       </div>
-      <div className="button-container">
+      <div className="top-social-media-buttons ">
         <button className="email">
           <FaEnvelope size={16} style={{ marginRight: '8px' }} />
           Email
