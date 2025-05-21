@@ -1,11 +1,12 @@
 .social-media-buttons {
   display: flex;
+  align-items: center;
   justify-content: center;
   gap: 1rem;
   background-color: black;
   padding: 1rem;
   width: 330px;
-  margin: 0 auto;
+  margin: 0rem 1rem auto;
   box-sizing: border-box;
 }
 
